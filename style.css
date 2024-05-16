@@ -42,6 +42,12 @@ nav{
     color: black;
     font-weight: bold;
 }
+.btn{
+    padding: 4% 7%;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
 .section1{
     display: flex;
     flex-direction: column;
@@ -80,8 +86,28 @@ nav{
     height: 30vh;
     margin: 0 0 2rem 0;
 }
+#whitesec{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    gap: 3rem;
+}
+#img2{
+    width: 30%;
+}
+#sideImg{
+    width: 30%;
+    align-content: center;
 
-
+}
+#sideImg>p , #sideImg>h1{
+    color: black;
+}
+#sideImg>p, #sideImg>button {
+    margin: 0 0 3rem 1rem;
+}
 
 /*
 .container{
