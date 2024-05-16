@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 10vh;
+    position: relative;
+    height: 100vh;
+}
+.circle{
+    width: 30vw;
+    height: 60vh;
+    z-index: -1;
+    background-color: rgb(44, 44, 44);
+    border-radius: 100%;
+    position: absolute;
+    top: -20vh;
+    left: 20vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    font-weight: bold;
+}
+.navTransUlList{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10%;
+    list-style: none;
+}
+#PurchaseBtn{
+    padding: 1% 2%;
+    color: black;
+    font-weight: bold;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Themebau{
+    font-size: 7em;
+    align-self: center;
+    padding: 0vh 0vw 5vh 0vw;
+}
+#sec1Just{
+    text-align: center;
+    width: 36vw;
+    font-size: large;
+    font-weight: 600;
+}
+.blacDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.blacDivCont{
+    width:fit-content;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blacDivImg{
+    width: 70%;
+    height: 70%;
+    margin: 0 0 2rem 0;
+}
+
+
+
+/*
+.container{
+    border: 1px solid #cdfece;
+    width: 30v;
+    display: flex;
+    justify-content: fle;
+    flex: row wrap;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: center;
+    justify-items: start;
+    
+    width: 100%;
+}
+.items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-content: center;
+}
+.lastItems{
+    list-style: none;
+    justify-self: end;
+}
+*/
